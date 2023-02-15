@@ -34,8 +34,7 @@ CREATE VIEW small_transactions AS
 	AND credit_card_details.id_card_holder = cardholder_details.id
 	AND amount BETWEEN '$0.00' AND '$2.00'
 	GROUP BY cardholder_details.id, cardholder_details.name, credit_card_details.card
-	ORDER BY cardholder_details.id ASC
-	;
+	ORDER BY cardholder_details.id ASC;
 	
 SELECT * FROM small_transactions;
 
