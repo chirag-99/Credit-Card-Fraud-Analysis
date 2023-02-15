@@ -18,11 +18,10 @@ CREATE TABLE merchant_details(
 	FOREIGN KEY (id_merchant_category) REFERENCES merchant_category(id));
 
 CREATE TABLE transactions(
-	id SERIAL,
+	id SERIAL PRIMARY KEY,
 	date TIMESTAMP,
 	amount MONEY NOT NULL,
 	card VARCHAR(20),
 	id_merchant INT,
-	PRIMARY KEY (id),
 	FOREIGN KEY (card) REFERENCES credit_card_details(card),
 	FOREIGN KEY (id_merchant) REFERENCES merchant_details(id));
