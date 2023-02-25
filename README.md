@@ -15,5 +15,5 @@ Observation 2: Card holders 2, 18 and 25 account for about 13% of total small tr
 Observation 3: Wood and Baker Inc are under potential threats where major number of small transactions were made over the span of 1 year
 
 To confirm the observations about card holders 2,18 and 25, the data about who are the authorized users of those cards and what are their spending 
-patterns would be required. This analysis helps to analyze and warn the credit card users about the unobserved and repitative spending patterns on 
+patterns would be required. This analysis helps to analyze and warn the credit card users about the unobserved and repetative spending patterns on 
 their card to maintain precaution.
