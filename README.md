@@ -5,7 +5,7 @@ they spent the money.
 
 Assumption 1: A pattern of small transactions(< $2) followed by large transactions depicts fraudulent operations
 
-Assumption 2: Large transactions (> $1000) at hotels or business meeting locations on weekends are sign of fraudulent operations
+Assumption 2: Large transactions (> $1000) at hotels or business meeting locations on weekends are a sign of fraudulent operations
 
 
 Observation 1: Large transactions were made mostly during the morning time (7 A.M - 9 A.M), most frequently by card holder 1 
