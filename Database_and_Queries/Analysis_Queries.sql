@@ -18,10 +18,10 @@ SELECT * FROM cardholder_transactions;
 CREATE VIEW top_100_7am_to_9am_transactions AS
 	SELECT id, date::date AS date, date::time(0) AS purchase_time, card, amount FROM transactions
 	WHERE amount IN (SELECT amount FROM transactions WHERE date::time(0) 
-  BETWEEN '07:00:00' AND '09:00:00' ORDER BY amount DESC LIMIT 100) 
+  BETWEEN '07:00:00' AND '09:00:00') 
 	ORDER by card, date DESC, amount DESC;
 	
-SELECT * FROM top_100_7am_to_9am_transactions;
+SELECT * FROM top_100_7am_to_9am_transactions ORDER BY amount DESC LIMIT 100;
 
 
 
