@@ -10,7 +10,7 @@ Assumption 2: Large transactions (> $1000) at hotels or business meeting locatio
 
 Observation 1: Large transactions were made mostly during the morning time (7 A.M - 9 A.M), most frequently by card holder 1 
 
-Observation 2: Card holders 2, 18 and 25 account for about 13% of total small transactions followed by a large transaction
+Observation 2: Cardholders 2, 18 and 25 account for about 13% of total small transactions followed by a large transaction
 
 Observation 3: Wood and Baker Inc are under potential threats where major number of small transactions were made over the span of 1 year
 
